@@ -1,0 +1,215 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Validation Of Adactinhotel with correct username and password",
+        "description": "",
+        "id": "validation-of-adactinhotel;validation-of-adactinhotel-with-correct-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26266250400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User must lsunch the Adactinhotelapp url",
+            "match": {
+              "location": "StrpDefine.user_must_lsunch_the_Adactinhotelapp_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1194215299,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters the correct user name and password",
+            "match": {
+              "location": "StrpDefine.user_enters_the_correct_user_name_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3117260799,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click on the login button",
+            "match": {
+              "location": "StrpDefine.user_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48845300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Validates url is navigated to Home page",
+            "match": {
+              "location": "StrpDefine.user_Validates_url_is_navigated_to_Home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1338974101,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Select the Location,Hotels,Room type,No Of Rooms for travel",
+            "match": {
+              "location": "StrpDefine.select_the_Location_Hotels_Room_type_No_Of_Rooms_for_travel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 533727800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters the CheckInDate and CheckOutDate",
+            "match": {
+              "location": "StrpDefine.user_enters_the_CheckInDate_and_CheckOutDate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 383038700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Select the Adult and Children per Room",
+            "match": {
+              "location": "StrpDefine.select_the_Adult_and_Children_per_Room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1440695800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Click on the Search button",
+            "match": {
+              "location": "StrpDefine.user_Click_on_the_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6777399,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Validates url is navigated to Select Hotel",
+            "match": {
+              "location": "StrpDefine.user_Validates_url_is_navigated_to_Select_Hotel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 107961701,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Select the Hotel",
+            "match": {
+              "location": "StrpDefine.select_the_Hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 949873101,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on the Continue",
+            "match": {
+              "location": "StrpDefine.click_on_the_Continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9235900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Validates url is navigated to Book a Hotel",
+            "match": {
+              "location": "StrpDefine.user_Validates_url_is_navigated_to_Book_a_Hotel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 684938900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters the First and Last name , Billing Address , Credit card no",
+            "match": {
+              "location": "StrpDefine.user_enters_the_First_and_Last_name_Billing_Address_Credit_card_no()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 805661400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "select the Credit card Type and Expire date and CVV no",
+            "match": {
+              "location": "StrpDefine.select_the_Credit_card_Type_and_Expire_date_and_CVV_no()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109605000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on the Booking now",
+            "match": {
+              "location": "StrpDefine.click_on_the_Booking_now()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9022400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User Validates url is navigated to Booking confirmation",
+            "match": {
+              "location": "StrpDefine.user_Validates_url_is_navigated_to_Booking_confirmation()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validation Of Adactinhotel",
+    "description": "",
+    "id": "validation-of-adactinhotel",
+    "keyword": "Feature",
+    "uri": "C:/Users/DELL/eclipse-workspace/Cucumbermarch/src/test/resources/Cucu.feature",
+    "tags": []
+  }
+]
